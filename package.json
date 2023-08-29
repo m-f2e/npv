@@ -1,0 +1,37 @@
+{
+  "name": "@m-f2e/npv",
+  "version": "0.0.1",
+  "description": "npm源管理工具,快速镜像源切换",
+  "main": "index.js",
+  "bin": {
+    "npv": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-f2e/npv.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "npm",
+    "yarn",
+    "cnpm",
+    "pnpm"
+  ],
+  "author": "mz 16619930394@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-f2e/npv/issues"
+  },
+  "homepage": "https://github.com/m-f2e/npv#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^11.0.0",
+    "inquirer": "^8.0.0",
+    "node-http-ping": "^0.3.1"
+  }
+}
