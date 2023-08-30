@@ -1,6 +1,6 @@
 {
   "name": "@m-f2e/npv",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "npm源管理工具,快速镜像源切换",
   "main": "index.js",
   "bin": {

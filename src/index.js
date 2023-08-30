@@ -38,6 +38,7 @@ program.command('ls').description('查看镜像列表').action(async () => {
   keys.forEach((key, index) => {
     // 找到当前环境中的镜像
     const newK = registries[key].registry === res.trim() ? '* ' + key : '  ' + key
+    // 等价于 Array.from({ ...newK, length: max})
     const Arr = new Array(...newK)
     Arr.length = max
     const prefix = Array.from(Arr).map(v => v ? v : '-').join('')
